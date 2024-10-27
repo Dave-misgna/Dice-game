@@ -1,0 +1,47 @@
+body{
+    background-color:cornflowerblue;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+#my_h1{
+    font-family:  "Platypi", serif;
+    font-size: 6rem;
+    margin: 10px;
+}
+.mybutton{
+  display: block;
+
+}
+.winner{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#refreshButton{
+  color: #ffffff;
+  background-color: #2e65cc;
+  font-size: 17px;
+  padding: 10px 40px;
+
+}
+#refreshButton:hover{
+  cursor: pointer;
+}
+.player{
+    display: inline-block;
+    margin: 10px 50px;
+}
+
+.my_p{
+    font-family: "Platypi", serif;
+    font-size: 3rem;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    color: aliceblue;
+}
